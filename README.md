@@ -24,6 +24,7 @@
    1. Girum sent us 3 Hafnia strains to use as reference to decide on Cut-off for species confirmation
    2. The 3 sample were analyzed using Reads_QC pipeline and "ProportionofReads" mapped used as cut-off for species identification prediction
   
-8. Download the Gene sequences for the list of AMR genes.
-  1. Many of the nucleotide_IDs are outdated and not able to download only the gene sequences
-10. 
+4. Download the Gene sequences for the list of AMR genes.
+  1. Update: Many of the nucleotide_IDs are outdated and not able to download only the gene sequences
+5. Suggestions from Håkon: Use NCBIAmrPlus for AMR genes
+6. Use ALPPACA for the SNP analysis and phylogenetics. 
