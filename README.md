@@ -27,4 +27,15 @@
 4. Download the Gene sequences for the list of AMR genes.
   1. Update: Many of the nucleotide_IDs are outdated and not able to download only the gene sequences
 5. Suggestions from Håkon: Use NCBIAmrPlus for AMR genes
-6. Use ALPPACA for the SNP analysis and phylogenetics. 
+6. Use ALPPACA for the SNP analysis and phylogenetics.
+
+
+# Progress Update: June 4th, 2025
+
+1. Total number of WGS data (isolates) 92 in VIGAS
+2. Quality control, species and contamination check : DONE (VIGAS)
+3. Assembly and annotation : DONE (VIGAS)
+4. AMR using NCBI-AMRFinderPlus : DONE (SAGA)
+5. Phylogenetics: Core genome SNPs using ALPPACA : DONE (SAGA)
+6. Plasmid Finder/assembler using MOBSUIT: DONE (SAGA)
+  
