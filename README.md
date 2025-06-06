@@ -38,4 +38,13 @@
 4. AMR using NCBI-AMRFinderPlus : DONE (SAGA)
 5. Phylogenetics: Core genome SNPs using ALPPACA : DONE (SAGA)
 6. Plasmid Finder/assembler using MOBSUIT: DONE (SAGA)
-  
+
+# karin 
+1. Use Abricate with VFDB for the 4 reference once
+2. Abrticate against AMRFinderPlus (NCBI) DB as well
+3. Abricate against CARD, MEGARES
+
+
+abricate --db vfdb --quiet  Control_Assemblies/SRR5427946-contigs.fasta --minid 50 --mincov 60
+abricate --db vfdb --quiet  Control_Assemblies/SRR15076246-contigs.fasta
+
