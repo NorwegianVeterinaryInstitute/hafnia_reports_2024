@@ -88,4 +88,17 @@ done < "$input"
 ```
 fastANI --q1 FastANI_input1.txt --q1 FastANI_input2.txt -o fastANI/All_vs_All.txt
 ```
+## NCBI-AMRFinderPlus
 
+```
+#!/bin/bash
+input="List_of_Fasta_Files.csv"
+while IFS= read -r line
+do
+  echo "$line"
+  IF="Assemblies/$line"
+  OF=$line"_output.csv"
+  echo $OF
+  amrfinder -n $IF --plus >$OF
+done < "$input
+```
