@@ -30,7 +30,10 @@ IMPORTANT: Discussesd about how and why to write down the meeting notes and disc
 6. Make new table with isolates, their genomes sizes if they have more than 5% contamination
 7. AMR DBs may have metal resistance genes as well that should be excluded from the results
 8. Need to figurre out the way to cluster the AMR genes by class/type so we can interpret the AMR Results
-9.    30+ AMR Genes per isolate is not possible in a normal scenario 
-10. Small note on:  How the DBs are constrcuted: pick 3 genes fron the resuklts we have and check for their differnet allels  (because the )
+9.    30+ AMR Genes per isolate is not possible in a normal scenario
 
+11. Small note on:  How the DBs are constrcuted: pick 3 genes fron the results we have and check for their differnet allels of how many variants of the same gene is in the same DB
+
+12. Discussed about the small amount of contaminations (<1%) in samples and the meaning of it. ~90%  of a bacterial genome contains genes and rest are non-coding/inter-genic regions. That 10% of the genome is subject to evolution without big phenotype effect.  So those small contaminations could be a real part of the isolate´s genome even though its similar to another species due to gene transfer and other stuffs. if its more than 5% contamination, then there is some contaminaton.
+13. Create 2 tables with very strict (>80% identity and >80% coverage) and relaxed (>60% identity and >60% coverage) filters. Pick same genes from both results, translate to protein and do a multiple alignments of them to show how different are they to decide. Girum has to look at it and decide about the filters.   
    
