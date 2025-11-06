@@ -6,5 +6,6 @@
 5. Remove the 3+2 isolates from phylogenetics and resrun
 6. Make a multi facet graph for each gene with X axis as the % identity
 7. Phylogenetics tree with number of AMR Genes in each isolates like the exmple below
-8. 
    <img width="845" height="514" alt="Screenshot 2025-11-06 at 14 55 36" src="https://github.com/user-attachments/assets/f4b572cd-fe82-4c2e-860b-527f22e12b67" />
+8. Create a gene identity bar graph with number of genes from control samples as well.
+9. Plot a frequency plot of each gene
