@@ -102,3 +102,17 @@ do
   amrfinder -n $IF --plus >$OF
 done < "$input
 ```
+
+## Phylogenomics
+### CoreGene track 
+```
+module load Java/21.0.2
+nextflow_24.10.4 run /cluster/projects/nn9305k/vi_src/ALPPACA/main.nf -c /cluster/shared/vetinst/Hafnia_Genomes/ALPCA_Output_Nov2025/saga_new.config --track core_gene --clean_mode moderate --bakta_db "/cluster/projects/nn9305k/db_flatfiles/bakta_db_v5"   --input "/cluster/shared/vetinst/Hafnia_Genomes/ALPCA_Output_Nov2025/cleaned_Combined_Genomes/Combined_Assembly_List_Final.csv" --out_dir /cluster/shared/vetinst/Hafnia_Genomes/ALPCA_Output_Nov2025/Cleaned_All/ -profile apptainer -resume
+```
+
+### CoreGenomeSNP
+```
+module load Java/21.0.2
+nextflow_24.10.4 run /cluster/projects/nn9305k/vi_src/ALPPACA/main.nf -c /cluster/shared/vetinst/Hafnia_Genomes/ALPCA_Output_Nov2025/saga_new.config --track core_genome  --input "/cluster/shared/vetinst/Hafnia_Genomes/ALPCA_Output_Nov2025/cleaned_Combined_Genomes/Combined_Assembly_List_Final.csv" --out_dir /cluster/shared/vetinst/Hafnia_Genomes/ALPCA_Output_Nov2025/Cleaned_All/ -profile apptainer -resume
+
+```
