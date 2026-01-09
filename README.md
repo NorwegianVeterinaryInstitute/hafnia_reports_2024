@@ -1,6 +1,14 @@
 # All the commands below are used in SAGA (HPC faciliaty offered by Sigma2) 
 # Commands used 
-## Abricate
+
+## Location of all the analysis done in SAGA
+```
+/cluster/shared/vetinst/Hafnia_Genomes/
+```
+## Abricate (run_abricate.sh)
+```
+conda activate abricate
+```
 ```
 #!/bin/bash
 input="List_of_Fasta_Files.csv"
@@ -22,7 +30,11 @@ done < "$input"
 
 ```
 
-## MOB-SUITE - Plasmids 
+## MOB-SUITE - Plasmids (run_mobsuite.sh)
+```
+conda activate mobsuite
+```
+
 ```
 #!/bin/bash
 input="List_of_Fasta_Files.csv"
@@ -39,10 +51,13 @@ done < "$input"
 
 ## fastANI
 ```
+conda activate fastani
 fastANI --q1 FastANI_input1.txt --q1 FastANI_input2.txt -o fastANI/All_vs_All.txt
 ```
-## NCBI-AMRFinderPlus
-
+## NCBI-AMRFinderPlus (run_amrfinderplus.sh)
+```
+conda activate AMRFinderPlus
+```
 ```
 #!/bin/bash
 input="List_of_Fasta_Files.csv"
